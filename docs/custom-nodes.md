@@ -141,6 +141,9 @@ Polar v1.0.0 supports using custom docker images for nodes in your networks. The
 1. Create a new file named `docker-entrypoint.sh` and copy the contents of [docker-entrypoint.sh](../docker/clightning/docker-entrypoint.sh)
    into it.
 
+1. Create a new file named `bashrc` and copy the contents of [bashrc](../docker/clightning/bashrc)
+   into it.
+
 1. Run `docker build -t core-lightning-master .`
 
 ## Eclair
